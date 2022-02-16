@@ -7,7 +7,7 @@ import {
   Button,
   Heading,
   Container,
-} from "../css/login";
+} from "../css/loginstyle";
 
 const Login = () => {
   return (

@@ -15,11 +15,12 @@ export const Heading = styled.h1`
   font-weight: 1000px;
   size: 200px;
   color: white;
+  font-size: 3rem;
 `;
 export const Para = styled.p`
   color: red;
   font-family: "Outfit", sans-serif;
-  size: 300px;
+  font-size: 25px;
 `;
 export const CredentialsContainer = styled.div`
   display: flex;
@@ -28,11 +29,13 @@ export const CredentialsContainer = styled.div`
 `;
 export const Input = styled.input`
   margin: 10px 0px;
+  color: whitesmoke;
   width: 300px;
   height: 30px;
   outline: none;
-  border: solid red 1px;
+  border: solid red 0.5px;
   border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0);
 `;
 export const Button = styled.button`
   width: 300px;
