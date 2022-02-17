@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <Container>
       <Mainfooter>
-        <div>Copyright @ The Nerd</div>
+        <div>Copyright @The Nerd</div>
       </Mainfooter>
     </Container>
   );

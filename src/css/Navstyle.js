@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const Navcontainer = styled.div`
   display: flex;
-  width: 100%;
-  padding: 0px 200px 0px 0px;
+  /* width: 100%; */
+  padding: 0px 20px 0px 0px;
   flex-direction: row-reverse;
   justify-content: space-between;
   height: 70px;
@@ -15,6 +15,7 @@ export const Navcontainer = styled.div`
   .searchbar {
     display: flex;
     justify-content: center;
+
     height: 35px;
     border: solid grey 0.5 px;
     border-radius: 20px;
@@ -23,6 +24,7 @@ export const Navcontainer = styled.div`
     background-color: rgb(220 231 48);
   }
   .searchhere {
+    font-family: "Outfit", sans-serif;
     height: 30px;
     border: none;
     background-color: rgba(0, 0, 0, 0);
@@ -47,8 +49,10 @@ export const Listitems = styled.li`
   }
 `;
 export const Link = styled.a`
+  font-family: "Outfit", sans-serif;
   text-decoration: none;
   color: #030600ad;
+  cursor: pointer;
 `;
 export const Navmenu = styled.div`
   display: flex;

@@ -1,8 +1,10 @@
 import React from "react";
 import { Listitems, Navcontainer, Link, Navmenu } from "../css/Navstyle";
+import { useNavigate } from "react-router-dom";
 // import search from "../images/search.png";
 
 const Navbar = () => {
+  const navigate = useNavigate();
   return (
     <Navcontainer>
       <div className="searchbar">
@@ -27,22 +29,42 @@ const Navbar = () => {
       </div>
       <Navmenu>
         <Listitems>
-          <Link className="items" href="#">
+          <Link
+            className="items"
+            onClick={() => {
+              navigate("/Dashboard");
+            }}
+          >
             Home
           </Link>
         </Listitems>
         <Listitems>
-          <Link className="items" href="#">
+          <Link
+            className="items"
+            onClick={() => {
+              navigate("/News");
+            }}
+          >
             News
           </Link>
         </Listitems>
         <Listitems>
-          <Link className="items" href="#">
+          <Link
+            className="items"
+            onClick={() => {
+              navigate("/Contact");
+            }}
+          >
             Contact
           </Link>
         </Listitems>
         <Listitems>
-          <Link className="items" href="#">
+          <Link
+            className="items"
+            onClick={() => {
+              navigate("/About");
+            }}
+          >
             About us
           </Link>
         </Listitems>

@@ -2,12 +2,13 @@ import styled from "styled-components";
 
 export const Section = styled.div`
   color: #000;
+  height: 100vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   background: linear-gradient(321deg, black, #5a5a5a);
-  height: 100vh;
+  /* height: 100vh; */
   /* width: 100%; */
 `;
 export const Heading = styled.h1`

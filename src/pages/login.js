@@ -1,4 +1,6 @@
 import React from "react";
+// import Dashboard from "../pages/Dashboard";
+import { useNavigate } from "react-router-dom";
 import {
   Section,
   Para,
@@ -10,6 +12,7 @@ import {
 } from "../css/loginstyle";
 
 const Login = () => {
+  const navigate = useNavigate();
   return (
     <Section class="main-container">
       <Container>
@@ -27,7 +30,13 @@ const Login = () => {
             placeholder="enter your password"
           ></Input>
         </CredentialsContainer>
-        <Button type="submit">Login</Button>
+        <Button
+          onClick={() => {
+            navigate("/Dashboard");
+          }}
+        >
+          Login
+        </Button>
       </Container>
     </Section>
   );
