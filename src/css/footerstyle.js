@@ -1,9 +1,11 @@
 import styled from "styled-components";
-export const Container = styled.div`
+export const Container = styled.div `
   /* height: 100vh; */
+  margin:0px;
+  padding:0px;
 `;
 
-export const Mainfooter = styled.div`
+export const Mainfooter = styled.div `
   font-family: "Outfit", sans-serif;
   background-color: rgb(40 32 32 / 80%);
   width: 100%;
@@ -16,4 +18,5 @@ export const Mainfooter = styled.div`
   justify-content: center;
   align-items: center;
   color: whitesmoke;
+  
 `;

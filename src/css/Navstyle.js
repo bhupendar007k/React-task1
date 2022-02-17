@@ -1,9 +1,11 @@
 import styled from "styled-components";
 
-export const Navcontainer = styled.div`
+export const Navcontainer = styled.div `
   display: flex;
   /* width: 100%; */
   padding: 0px 20px 0px 0px;
+  margin:0px;
+    padding:0px;
   flex-direction: row-reverse;
   justify-content: space-between;
   height: 70px;
@@ -11,6 +13,7 @@ export const Navcontainer = styled.div`
   .logo {
     height: 20px;
     width: 20px;
+    
   }
   .searchbar {
     display: flex;
@@ -41,20 +44,20 @@ export const Navcontainer = styled.div`
     opacity: 0.5;
   }
 `;
-export const Listitems = styled.li`
+export const Listitems = styled.li `
   list-style: none;
   text-decoration: none;
   .items:hover {
     color: #fdf500db;
   }
 `;
-export const Link = styled.a`
+export const Link = styled.a `
   font-family: "Outfit", sans-serif;
   text-decoration: none;
   color: #030600ad;
   cursor: pointer;
 `;
-export const Navmenu = styled.div`
+export const Navmenu = styled.div `
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
