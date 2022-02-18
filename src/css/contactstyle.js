@@ -22,7 +22,12 @@ export const Contactform = styled.div`
   }
   .Contact-details {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    /*   */
+    width: 600px;
+  }
+  .para {
+    margin-top: 15px;
   }
 `;
 export const InputArea = styled.input`
@@ -32,15 +37,31 @@ export const InputArea = styled.input`
   outline: none;
   border: solid darkcyan 1px;
   background-color: rgba(0, 0, 0, 0);
+  padding-left: 10px;
 `;
 export const Link = styled.a`
   text-decoration: none;
   padding: 16.5px 0px 0px 20px;
   color: grey;
 `;
-export const Feedback = styled.div`
+export const Feedback = styled.input`
   width: 300px;
-  height: 60px;
+  height: 100px;
   border: solid darkcyan 1px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0);
+  outline: none;
+  padding-left: 5px;
+  display: flex;
+  /* justify-content: center; */
+  /* align-content: center; */
+  /* align-items: center  ; */
+`;
+export const SubBtn = styled.button`
+  height: 40px;
+  width: 80px;
+  background-color: #ddf1fd;
+  outline: none;
+  font-size: medium;
   border-radius: 10px;
 `;

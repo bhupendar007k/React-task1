@@ -8,6 +8,8 @@ export const Navcontainer = styled.div`
   justify-content: space-between;
   height: 70px;
   background: linear-gradient(45deg, #2196f3, #31f1cd);
+  position: sticky;
+  top: 0;
   .logo {
     height: 20px;
     width: 20px;

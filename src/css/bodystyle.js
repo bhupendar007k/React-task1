@@ -10,5 +10,6 @@ export const Mainbody = styled.div`
   background-color: #ddf1fd;
   .text {
     width: 70%;
+    padding-top: 50px;
   }
 `;

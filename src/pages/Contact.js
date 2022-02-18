@@ -7,6 +7,7 @@ import {
   MainContainer,
   Feedback,
   Link,
+  SubBtn,
 } from "../css/contactstyle";
 
 function Contact() {
@@ -22,8 +23,9 @@ function Contact() {
           <InputArea type="email" placeholder="Email here"></InputArea>
 
           <Feedback type="text" placeholder="Your Feedback here"></Feedback>
+          <SubBtn type="submit">submit</SubBtn>
           <div className="Contact-details">
-            <p>Contact here</p>
+            <p className="para">Contact here</p>
 
             <Link classname="contact-items" href="#">
               +1-21653-23173-23
