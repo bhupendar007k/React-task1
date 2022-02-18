@@ -6,6 +6,8 @@ export const MainContainer = styled.div`
   display: flex;
   justify-content: center;
   font-family: "Outfit", sans-serif;
+  margin: 0px;
+  padding: 0px;
 `;
 export const Contactform = styled.div`
   width: 400px;
@@ -48,6 +50,7 @@ export const Feedback = styled.input`
   width: 300px;
   height: 100px;
   border: solid darkcyan 1px;
+  background-color: rgba(0, 0, 0, 0);
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0);
   outline: none;
